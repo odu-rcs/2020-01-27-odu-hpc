@@ -144,7 +144,7 @@ eventbrite: 58374851753           # optional: alphanumeric key for Eventbrite re
 </p>
 
 <p id="Documentation">
-  [<strong>ODU ITS HPC Documentation Site</strong>](https://docs.hpc.odu.edu/)
+  Please visit our [documentation site](https://docs.hpc.odu.edu/) for additional information.
 </p>
   
 <hr/>
