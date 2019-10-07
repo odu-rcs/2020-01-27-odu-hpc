@@ -38,6 +38,17 @@ eventbrite:            # optional: alphanumeric key for Eventbrite registration,
 {% endcomment %}
 
 <h2 id="linkReference">https://odu-rcs.github.io/2019-10-07-odu-hpc/</h2>
+
+> ## ATTENTION Windows Users
+>
+> Please download & install putty from <https://www.putty.org/> .
+>
+> Direct download link: <https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html> .
+>
+> Stand-alone executable (no-install option): <https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe>
+>
+{: .prereq}
+
 <h2 id="general">General Information</h2>
 
 {% comment %}
