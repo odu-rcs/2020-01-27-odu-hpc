@@ -37,6 +37,7 @@ eventbrite:            # optional: alphanumeric key for Eventbrite registration,
   displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 
+<h2 id="linkReference">https://odu-rcs.github.io/2019-10-07-odu-hpc/</h2>
 <h2 id="general">General Information</h2>
 
 {% comment %}
