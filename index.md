@@ -6,7 +6,7 @@ address: "Old Dominion University, Perry Library Learning Commons, Conference Ro
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "36.884672, -76.300612"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use https://www.latlong.net/)
-humandate: "Jan 27 - Feb 26, 2020"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
+humandate: "Jan 27 - Feb 26, 2020 (see table)"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "11:00pm-3:00pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2020-01-27     # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2020-02-26       # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
@@ -37,7 +37,9 @@ eventbrite: 90158355067           # optional: alphanumeric key for Eventbrite re
   displayed if the 'eventbrite' field in the header is not set.
 {% endcomment %}
 
-<h2 id="linkReference">https://odu-rcs.github.io/2019-10-07-odu-hpc/</h2>
+<h2 id="linkReference"><a href="https://odu-rcs.github.io/2020-01-27-odu-hpc">https://odu-rcs.github.io/2020-01-27-odu-hpc</a></h2>
+
+Please sign up for the workshop at our [Eventbrite](https://odurcs-spring2020.eventbrite.com) page.
 
 > ## ATTENTION Windows Users
 >
@@ -184,6 +186,19 @@ FIXME_RIGHT_HERE
 {% endcomment %}
 <h2 id="schedule">Schedule</h2>
 
+
+
+|--------------|------------------|---------------|----------------------------|
+| Topic        | Date             | Time          | Location                   |
+|--------------|------------------|---------------|----------------------------|
+| UNIX 1       | 2020-01-27 (Mon) | 11:30 - 14:30 | Webb / VA Beach-Portsmouth |
+| UNIX 2       | 2020-01-30 (Thu) | 11:30 - 14:30 | Webb / VA Beach-Portsmouth |
+| Python 1     | 2020-02-11 (Tue) | 11:30 - 14:30 | Webb / VA Beach-Portsmouth |
+| Python 2     | 2020-02-12 (Wed) | 11:30 - 14:30 | Webb / VA Beach-Portsmouth |
+| Intro to HPC | 2020-02-26 (Wed) | 11:30 - 14:30 | Webb / Potomac-York        |
+|--------------|------------------|---------------|----------------------------|
+
+{% comment %}
 {% if page.carpentry == "swc" %}
   {% include sc/schedule.html %}
 {% elsif page.carpentry == "dc" %}
@@ -191,6 +206,7 @@ FIXME_RIGHT_HERE
 {% elsif page.carpentry == "lc" %}
   {% include lc/schedule.html %}
 {% endif %}
+{% endcomment %}
 
 {% comment %}
   Collaborative Notes
