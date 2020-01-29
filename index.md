@@ -2,7 +2,7 @@
 layout: workshop      # DON'T CHANGE THIS.
 carpentry: "swc"    # what kind of Carpentry (must be either "lc" or "dc" or "swc")
 venue: "Old Dominion University"        # brief name of host site without address (e.g., "Euphoric State University")
-address: "Old Dominion University, Webb Center (see table below for room info)"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
+address: "Old Dominion University, Webb Center 1526 W 49th St, Norfolk, VA 23508 (see table below for room info)"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 #address: "Old Dominion University, Webb Center (<span style="color:red;">see table below for room info</span>)"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
@@ -48,7 +48,16 @@ eventbrite: 90158355067           # optional: alphanumeric key for Eventbrite re
 </iframe>
 {% endif %}
 
-<h2 id="linkReference"><a href="https://odu-rcs.github.io/2020-01-27-odu-hpc">https://odu-rcs.github.io/2020-01-27-odu-hpc</a></h2>
+<div class="announce-box">
+  <h3 id="Location_Announcement" class="announce-box">Location Clarification
+  </h3>
+
+  <p>These workshops take place in Webb Center (Norfolk campus)!
+  Please see the schedule below for each workshop's location.
+  The "VA Beach&ndash;Portsmouth" rooms are on the second floor.
+  </p>
+</div>
+{% comment %} <h2 id="linkReference"><a href="https://odu-rcs.github.io/2020-01-27-odu-hpc">https://odu-rcs.github.io/2020-01-27-odu-hpc</a></h2> {% endcomment %}
 
 Please sign up for the workshop at our [Eventbrite](https://odurcs-spring2020.eventbrite.com) page.
 
